@@ -109,11 +109,29 @@ def aktorPuan(imdbList, oyuncuList):
                 aktorler[count2][1] = aktorler[count2][1] + float(imdbList[i])
                 aktorler[count2][2] = aktorler[count2][2] + 1
 
-    # for k in range(len(aktorler)):
-    #
-    #     aktorler[k][1] = (aktorler[k][1] / aktorler[k][2])
+    for k in range(len(aktorler)):
 
-    return aktorler
+        aktorler[k][1] = (aktorler[k][1] / aktorler[k][2])
+
+
+
+
+    return aktorler,aktor
+
+def diziKadroPuan(aktorUniq,oyuncuList,aktorPuan):
+
+
+    for i in range(len(oyuncuList)):
+        for j in range(len(oyuncuList[i])):
+
+            if (oyuncuList[i][j] not in aktorUniq):
+
+                aktor.append(oyuncuList[i][j])
+                aktorler.append([oyuncuList[i][j], 0, 0])
+                aktorler[count][1] = float(imdbList[i])
+                aktorler[count][2] = 1
+
+                count = count + 1
 
 
 def dictionary(turList):

@@ -20,20 +20,7 @@ aaktor = [["omer ali", 4,0]]
 sozluk = {"omer":2,"murat":10,"sari":10}
 diziS = ["omer","murat","sari"]
 toplam = 0
-"""
-for i in diziS:
-    if(i in sozluk):
-
-        print("HeSDebeleeeeeee".lower())
-
-        toplam = toplam + 1
-
-print(toplam)
-vt.aktorPuan(imdb,aktor)
-
-liste.extend("7")
-print()
-"""
+vt.aktorPuan(liste,aktor)
 
 denemeler = [["omer",10,2],["omer",14,3],["omer",18,3],["omer",24,6],["omer",30,3],["omer",30,3],["omer",44,4],["omer",42,6],["omer",56,2]]
 

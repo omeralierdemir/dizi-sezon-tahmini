@@ -69,13 +69,13 @@ baslangicT,bitisTarih = vt.tarihBelirleme(tarihVerileri)
 
 sezonSayisi,sezonDurumu = vt.sezonHesapla(baslangicT,bitisTarih)
 
-print(sezonSayisi)
-print(sezonDurumu)
-oyuncuKadroPuan = vt.aktorPuan(imdbRange,actor)
+oyuncuPuan,aktorUniq = vt.aktorPuan(imdbRange, actor)
+
+
 aktorS = vt.castOyuncuKadro(actor)# aktorString
 
 
-
+print(oyuncuPuan)
 turT = vt.satirTemizle(turT) # aga tüm türleri bir arada dönderiyo
 tur = vt.tur(turT) # tek türleri dönderiyo 0. index yani
 konuP = vt.dictionary(turT)
@@ -99,7 +99,7 @@ raw_data = {
     "tur":tur,
     "konuPuan":konuP,
     "aktorS":aktorS,
-    "oyuncuKadroPua":oyuncuKadroPuan,
+    "oyuncuKadroPua":oyuncuPuan,
     "imdb":imdbRange
 
 
