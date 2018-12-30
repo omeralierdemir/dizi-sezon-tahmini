@@ -42,4 +42,4 @@ omerL = []
 murat = ['Tekin Akmansoy', 'Leman Çidamli', 'Sevda Aydan', 'Hasim Hekimoglu']
 
 degisken = ','.join(str(x) for x in murat)
-print(degisken)
+print(denemeler[:][0:1])

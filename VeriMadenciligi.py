@@ -67,13 +67,12 @@ for urlDeger in range(1,1301,50):
 
 baslangicT,bitisTarih = vt.tarihBelirleme(tarihVerileri)
 
-sezon = vt.sezonHesapla(baslangicT,bitisTarih)
+sezonSayisi,sezonDurumu = vt.sezonHesapla(baslangicT,bitisTarih)
 
-#print(actor)
-
-oyuncuKadro = vt.aktorPuan(imdbRange,actor)
+print(sezonSayisi)
+print(sezonDurumu)
+oyuncuKadroPuan = vt.aktorPuan(imdbRange,actor)
 aktorS = vt.castOyuncuKadro(actor)# aktorString
-print(aktorS)
 
 
 
@@ -95,36 +94,18 @@ raw_data = {
     "isim":diziIsimleri,
     "baslangicT":baslangicT,
     "bitisTarih":bitisTarih,
-    "sezon":sezon,
+    "sezonSayisi":sezonSayisi,
+    "sezonDurumu":sezonDurumu,
     "tur":tur,
     "konuPuan":konuP,
     "aktorS":aktorS,
+    "oyuncuKadroPua":oyuncuKadroPuan,
     "imdb":imdbRange
 
 
 
 }
 
-df = pd.DataFrame(raw_data,columns= ['isim', 'baslangicT', 'bitisTarih', 'sezon', 'tur','konuPuan','aktorS','imdb'])
-df.to_csv("kocayurek.csv")
-t1 = pd.DataFrame(data=diziIsimleri,index=range(867),columns=["isim"])
-t2 = pd.DataFrame(data=baslangicT,index=range(867),columns=["baslangicT"])
-t3 = pd.DataFrame(data=bitisTarih,index=range(867),columns=["bitisT"])
-t4 = pd.DataFrame(data=sezon,index=range(867),columns=["sezon"])
-t5 = pd.DataFrame(data=tur,index=range(867),columns=["tur"])
-t6 = pd.DataFrame(data=konuP,index=range(867),columns=["konuPuan"])
-t7 = pd.DataFrame(data=aktorS,index=range(867),columns=["oyuncuKadro"])
-t8 = pd.DataFrame(data=imdbRange,index=range(867),columns=["imdb"])
+df = pd.DataFrame(raw_data,columns= ['isim', 'baslangicT', 'bitisTarih', 'sezonSayisi','sezonDurumu','tur','konuPuan','aktorS','oyuncuKadroPuan','imdb'])
+df.to_csv("kocayurekk.csv")
 
-
-print(t1)
-print(t2)
-print(t3)
-print(t4)
-print(t5)
-print(t6)
-print(t7)
-print(t8)
-
-
-print(type(t1))

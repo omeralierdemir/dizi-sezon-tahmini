@@ -13,13 +13,28 @@ def satirTemizle(liste):
 
 def sezonHesapla(basT,bitT):
 
-    sezon = []
+    sezonP = []
+    sezonDurum = []
+    kopru = 0
 
     for i in range(len(basT)):
 
 
-        sezon.append(int(bitT[i]) - int(basT[i]) + 1)
-    return sezon
+        kopru = (int(bitT[i]) - int(basT[i]) + 1)
+        sezonP.append(kopru)
+        if(kopru==1):
+
+
+            sezonDurum.append("basarisiz")
+
+        elif(kopru==2):
+
+
+            sezonDurum.append("basarili")
+        else:
+
+            sezonDurum.append("olgun")
+    return sezonP,sezonDurum
 
 
 
