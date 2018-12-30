@@ -133,3 +133,19 @@ def dictionary(turList):
 
 
     return sonuc
+
+
+def castOyuncuKadro(oyuncuKadro): # aga yek stringe düşürüyon burada stringi
+
+    sonuc = []
+    for i in oyuncuKadro:
+
+
+
+        kopru =  ','.join(str(x) for x in i)
+        sonuc.append(kopru)
+
+
+    return sonuc
+
+

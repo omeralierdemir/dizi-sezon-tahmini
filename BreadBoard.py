@@ -39,8 +39,7 @@ denemeler = [["omer",10,2],["omer",14,3],["omer",18,3],["omer",24,6],["omer",30,
 
 #denemeler[:][1] = denemeler[:][1] / denemeler[:][2] ----> haruna sor hacı
 omerL = []
-for i in liste:
+murat = ['Tekin Akmansoy', 'Leman Çidamli', 'Sevda Aydan', 'Hasim Hekimoglu']
 
-    omerL.append(int(i))
-
-print(denemeler)
+degisken = ','.join(str(x) for x in murat)
+print(degisken)

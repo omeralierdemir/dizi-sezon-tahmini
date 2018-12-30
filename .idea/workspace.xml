@@ -26,22 +26,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="csv" value="2" />
           <entry key="py" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4568" />
+          <entry key="py" value="5204" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4568" />
+          <entry key="Python" value="5204" />
         </counts>
       </usages-collector>
     </session>
@@ -72,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VeriMadenciligi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="92" column="70" lean-forward="true" selection-start-line="92" selection-start-column="70" selection-end-line="92" selection-end-column="70" />
+            <state relative-caret-position="300">
+              <caret line="108" column="26" lean-forward="true" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -84,18 +86,25 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kocayurek.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VeriTemizleme.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="85" column="42" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
+            <state relative-caret-position="359">
+              <caret line="148" column="16" selection-start-line="148" selection-start-column="16" selection-end-line="148" selection-end-column="16" />
               <folding>
-                <marker date="1546187037261" expanded="true" signature="29:44" ph="..." />
-                <marker date="1546187037261" expanded="true" signature="250:360" ph="..." />
-                <marker date="1546187037261" expanded="true" signature="390:391" ph="..." />
-                <marker date="1546187037261" expanded="true" signature="390:395" ph="..." />
-                <marker date="1546187037261" expanded="true" signature="2073:2074" ph="..." />
-                <marker date="1546187037261" expanded="true" signature="2073:2078" ph="..." />
+                <marker date="1546191978239" expanded="true" signature="29:44" ph="..." />
+                <marker date="1546191978239" expanded="true" signature="250:360" ph="..." />
+                <marker date="1546191978239" expanded="true" signature="390:391" ph="..." />
+                <marker date="1546191978239" expanded="true" signature="390:395" ph="..." />
+                <marker date="1546191978239" expanded="true" signature="2073:2074" ph="..." />
+                <marker date="1546191978239" expanded="true" signature="2073:2078" ph="..." />
+                <marker date="1546191978239" expanded="true" signature="3032:3215" ph="..." />
+                <marker date="1546191978239" expanded="true" signature="3212:3213" ph="..." />
               </folding>
             </state>
           </provider>
@@ -104,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BreadBoard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="378">
+              <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-end-line="44" />
             </state>
           </provider>
         </entry>
@@ -140,10 +149,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="261" />
-    <option name="y" value="48" />
-    <option name="width" value="1400" />
-    <option name="height" value="986" />
+    <option name="y" value="30" />
+    <option name="width" value="950" />
+    <option name="height" value="1011" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -298,17 +306,17 @@
     <frame x="0" y="30" width="1920" height="1015" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15486258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15486258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989429" visible="true" weight="0.33216783" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989429" visible="true" weight="0.33216783" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.3986014" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32983682" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3290993" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010571" side_tool="true" weight="0.5151515" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -393,35 +401,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BreadBoard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="378">
+          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-end-line="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VeriTemizleme.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="85" column="42" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
+        <state relative-caret-position="359">
+          <caret line="148" column="16" selection-start-line="148" selection-start-column="16" selection-end-line="148" selection-end-column="16" />
           <folding>
-            <marker date="1546187037261" expanded="true" signature="29:44" ph="..." />
-            <marker date="1546187037261" expanded="true" signature="250:360" ph="..." />
-            <marker date="1546187037261" expanded="true" signature="390:391" ph="..." />
-            <marker date="1546187037261" expanded="true" signature="390:395" ph="..." />
-            <marker date="1546187037261" expanded="true" signature="2073:2074" ph="..." />
-            <marker date="1546187037261" expanded="true" signature="2073:2078" ph="..." />
+            <marker date="1546191978239" expanded="true" signature="29:44" ph="..." />
+            <marker date="1546191978239" expanded="true" signature="250:360" ph="..." />
+            <marker date="1546191978239" expanded="true" signature="390:391" ph="..." />
+            <marker date="1546191978239" expanded="true" signature="390:395" ph="..." />
+            <marker date="1546191978239" expanded="true" signature="2073:2074" ph="..." />
+            <marker date="1546191978239" expanded="true" signature="2073:2078" ph="..." />
+            <marker date="1546191978239" expanded="true" signature="3032:3215" ph="..." />
+            <marker date="1546191978239" expanded="true" signature="3212:3213" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VeriMadenciligi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="92" column="70" lean-forward="true" selection-start-line="92" selection-start-column="70" selection-end-line="92" selection-end-column="70" />
+        <state relative-caret-position="300">
+          <caret line="108" column="26" lean-forward="true" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kocayurek.csv">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

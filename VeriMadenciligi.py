@@ -72,14 +72,15 @@ sezon = vt.sezonHesapla(baslangicT,bitisTarih)
 #print(actor)
 
 oyuncuKadro = vt.aktorPuan(imdbRange,actor)
-print(actor)
-print(imdbRange[-2])
-print(diziIsimleri[-2])
+aktorS = vt.castOyuncuKadro(actor)# aktorString
+print(aktorS)
+
 
 
 turT = vt.satirTemizle(turT) # aga tüm türleri bir arada dönderiyo
 tur = vt.tur(turT) # tek türleri dönderiyo 0. index yani
 konuP = vt.dictionary(turT)
+
 
 
 # print(konuP)
@@ -89,16 +90,41 @@ konuP = vt.dictionary(turT)
 # print(len(diziIsimleri))
 # print(type(tarihVerileri[0]))
 
+raw_data = {
 
+    "isim":diziIsimleri,
+    "baslangicT":baslangicT,
+    "bitisTarih":bitisTarih,
+    "sezon":sezon,
+    "tur":tur,
+    "konuPuan":konuP,
+    "aktorS":aktorS,
+    "imdb":imdbRange
+
+
+
+}
+
+df = pd.DataFrame(raw_data,columns= ['isim', 'baslangicT', 'bitisTarih', 'sezon', 'tur','konuPuan','aktorS','imdb'])
+df.to_csv("kocayurek.csv")
 t1 = pd.DataFrame(data=diziIsimleri,index=range(867),columns=["isim"])
-t1 = pd.DataFrame(data=diziIsimleri,index=range(867),columns=["baslangicT"])
-t1 = pd.DataFrame(data=diziIsimleri,index=range(867),columns=["bitisT"])
-t1 = pd.DataFrame(data=diziIsimleri,index=range(867),columns=["sezon"])
-t1 = pd.DataFrame(data=diziIsimleri,index=range(867),columns=["tur"])
-t1 = pd.DataFrame(data=diziIsimleri,index=range(867),columns=["konuPuan"])
-t1 = pd.DataFrame(data=diziIsimleri,index=range(867),columns=["oyuncuKadro"])
-t1 = pd.DataFrame(data=diziIsimleri,index=range(867),columns=["imdb"])
+t2 = pd.DataFrame(data=baslangicT,index=range(867),columns=["baslangicT"])
+t3 = pd.DataFrame(data=bitisTarih,index=range(867),columns=["bitisT"])
+t4 = pd.DataFrame(data=sezon,index=range(867),columns=["sezon"])
+t5 = pd.DataFrame(data=tur,index=range(867),columns=["tur"])
+t6 = pd.DataFrame(data=konuP,index=range(867),columns=["konuPuan"])
+t7 = pd.DataFrame(data=aktorS,index=range(867),columns=["oyuncuKadro"])
+t8 = pd.DataFrame(data=imdbRange,index=range(867),columns=["imdb"])
 
 
 print(t1)
+print(t2)
+print(t3)
+print(t4)
+print(t5)
+print(t6)
+print(t7)
+print(t8)
+
+
 print(type(t1))
