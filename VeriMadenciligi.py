@@ -65,29 +65,40 @@ for urlDeger in range(1,1301,50):
 
 
 
-#print(diziIsimleri[113])
 baslangicT,bitisTarih = vt.tarihBelirleme(tarihVerileri)
 
-
-
-print(baslangicT)
-print(bitisTarih)
-
 sezon = vt.sezonHesapla(baslangicT,bitisTarih)
-print(sezon)
-count3 = 0
-for i in sezon:
-    if (i > 13):
 
-        count3 = count3 + 1
+#print(actor)
 
-print(sezon)
+oyuncuKadro = vt.aktorPuan(imdbRange,actor)
+print(actor)
+print(imdbRange[-2])
+print(diziIsimleri[-2])
 
-print(count3)
+
 turT = vt.satirTemizle(turT) # aga tüm türleri bir arada dönderiyo
 tur = vt.tur(turT) # tek türleri dönderiyo 0. index yani
+konuP = vt.dictionary(turT)
 
-print(diziIsimleri)
-#print(turT)
-print(len(diziIsimleri))
-print(type(tarihVerileri[0]))
+
+# print(konuP)
+#
+# print(tur)
+# print(turT)
+# print(len(diziIsimleri))
+# print(type(tarihVerileri[0]))
+
+
+t1 = pd.DataFrame(data=diziIsimleri,index=range(867),columns=["isim"])
+t1 = pd.DataFrame(data=diziIsimleri,index=range(867),columns=["baslangicT"])
+t1 = pd.DataFrame(data=diziIsimleri,index=range(867),columns=["bitisT"])
+t1 = pd.DataFrame(data=diziIsimleri,index=range(867),columns=["sezon"])
+t1 = pd.DataFrame(data=diziIsimleri,index=range(867),columns=["tur"])
+t1 = pd.DataFrame(data=diziIsimleri,index=range(867),columns=["konuPuan"])
+t1 = pd.DataFrame(data=diziIsimleri,index=range(867),columns=["oyuncuKadro"])
+t1 = pd.DataFrame(data=diziIsimleri,index=range(867),columns=["imdb"])
+
+
+print(t1)
+print(type(t1))

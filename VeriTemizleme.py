@@ -2,7 +2,11 @@ def satirTemizle(liste):
     kopru = []
     for i in liste:
         deg = i.replace("\n", "")
-        kopru.append(deg.replace(" ", ""))
+
+        deg = deg.replace(" ", "")
+        deg = deg.split(",")
+        kopru.append(deg)
+
 
     return kopru
 
@@ -55,10 +59,13 @@ def tarihBelirleme(tarihList):
 
 def tur(dizi):
     kopru = []
-    for i in dizi:
-        a = i.split(",")
+   # for i in dizi:
 
-        kopru.append(a[0])
+    for i in range(len(dizi)):
+
+        a = dizi[i][0]
+
+        kopru.append(a)
 
     return kopru
 
@@ -67,6 +74,7 @@ def aktorPuan(imdbList, oyuncuList):
     aktor = []
     aktorler = []
     count = 0
+    sonuc = []
 
     for i in range(len(oyuncuList)):
         for j in range(len(oyuncuList[i])):
@@ -75,25 +83,33 @@ def aktorPuan(imdbList, oyuncuList):
 
                 aktor.append(oyuncuList[i][j])
                 aktorler.append([oyuncuList[i][j], 0, 0])
-                aktorler[count][1] = imdbList[i]
+                aktorler[count][1] = float(imdbList[i])
                 aktorler[count][2] = 1
 
                 count = count + 1
 
 
             else:
-                count2 = aktor.index(oyuncuList[i][j])
-                aktorler[count2][1] = aktorler[count2][1] + imdbList[i]
+                count2 = aktor.index(oyuncuList[i][j])  # başkan ortalama almamışsın
+                aktorler[count2][1] = aktorler[count2][1] + float(imdbList[i])
                 aktorler[count2][2] = aktorler[count2][2] + 1
+
+    # for k in range(len(aktorler)):
+    #
+    #     aktorler[k][1] = (aktorler[k][1] / aktorler[k][2])
+
+    return aktorler
 
 
 def dictionary(turList):
     sonuc = []
+    flag = 0
+    count = 0
     toplam = 0
     sozluk = {"action": 16, "fantasy": 14, "sci-fi": 12, "drama": 18, "thriller": 16, "mystery": 14, "crime": 15,
-              "adventure": 17, "comedy": 16, "romance": 16, "history": 8, "war": 16, "family": 10, "sport": 12,
+              "adventure": 17, "comedy": 16, "romance": 16, "history": 8, "war": 16, "family": 15, "sport": 12,
               "music": 6, "talk-show": 14, "biography": 6, "horror": 10, "reality-tv": 12, "short": 6, "game-show": 12,
-              "news": 12, "documentary": 10}
+              "news": 15, "documentary": 10}
 
 
     for i in range(len(turList)):
@@ -101,7 +117,19 @@ def dictionary(turList):
 
             if (turList[i][j].lower() in sozluk):
                 toplam = int(sozluk[turList[i][j].lower()]) + toplam
+                count = count + 1
+                flag = 1
 
-        ortalama = toplam / len(turList[i])
-        toplam = 0
+        if(flag == 1):
+
+            ortalama = toplam / count
+            toplam = 0
+            count = 0
+            flag = 0
+
+        else:
+            ortalama = 5
         sonuc.append(ortalama)
+
+
+    return sonuc

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1821ee96-bb8b-41bf-9b2d-216019da5dc7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/BreadBoard.py" beforeDir="false" afterPath="$PROJECT_DIR$/BreadBoard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VeriMadenciligi.py" beforeDir="false" afterPath="$PROJECT_DIR$/VeriMadenciligi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VeriTemizleme.py" beforeDir="false" afterPath="$PROJECT_DIR$/VeriTemizleme.py" afterDir="false" />
     </list>
@@ -35,12 +36,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3706" />
+          <entry key="py" value="4568" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3706" />
+          <entry key="Python" value="4568" />
         </counts>
       </usages-collector>
     </session>
@@ -74,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/VeriMadenciligi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+            <state relative-caret-position="324">
+              <caret line="92" column="70" lean-forward="true" selection-start-line="92" selection-start-column="70" selection-end-line="92" selection-end-column="70" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -86,15 +87,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VeriTemizleme.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-365">
-              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+            <state relative-caret-position="133">
+              <caret line="85" column="42" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
               <folding>
-                <marker date="1546179391903" expanded="true" signature="29:44" ph="..." />
-                <marker date="1546179391903" expanded="true" signature="201:307" ph="..." />
-                <marker date="1546179391903" expanded="true" signature="337:338" ph="..." />
-                <marker date="1546179391903" expanded="true" signature="337:342" ph="..." />
-                <marker date="1546179391903" expanded="true" signature="1806:1807" ph="..." />
-                <marker date="1546179391903" expanded="true" signature="1806:1811" ph="..." />
+                <marker date="1546187037261" expanded="true" signature="29:44" ph="..." />
+                <marker date="1546187037261" expanded="true" signature="250:360" ph="..." />
+                <marker date="1546187037261" expanded="true" signature="390:391" ph="..." />
+                <marker date="1546187037261" expanded="true" signature="390:395" ph="..." />
+                <marker date="1546187037261" expanded="true" signature="2073:2074" ph="..." />
+                <marker date="1546187037261" expanded="true" signature="2073:2078" ph="..." />
               </folding>
             </state>
           </provider>
@@ -103,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BreadBoard.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+            <state relative-caret-position="357">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
@@ -328,7 +329,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3290993" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010571" side_tool="true" weight="0.51616627" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010571" side_tool="true" weight="0.5151515" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -343,8 +344,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/VeriTemizleme.py</url>
-          <line>9</line>
+          <line>13</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/VeriTemizleme.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/VeriTemizleme.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -367,16 +378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KNN.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BreadBoard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VeriÇekme.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -387,25 +388,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/KNN.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BreadBoard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/VeriTemizleme.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-365">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        <state relative-caret-position="133">
+          <caret line="85" column="42" selection-start-line="85" selection-start-column="42" selection-end-line="85" selection-end-column="42" />
           <folding>
-            <marker date="1546179391903" expanded="true" signature="29:44" ph="..." />
-            <marker date="1546179391903" expanded="true" signature="201:307" ph="..." />
-            <marker date="1546179391903" expanded="true" signature="337:338" ph="..." />
-            <marker date="1546179391903" expanded="true" signature="337:342" ph="..." />
-            <marker date="1546179391903" expanded="true" signature="1806:1807" ph="..." />
-            <marker date="1546179391903" expanded="true" signature="1806:1811" ph="..." />
+            <marker date="1546187037261" expanded="true" signature="29:44" ph="..." />
+            <marker date="1546187037261" expanded="true" signature="250:360" ph="..." />
+            <marker date="1546187037261" expanded="true" signature="390:391" ph="..." />
+            <marker date="1546187037261" expanded="true" signature="390:395" ph="..." />
+            <marker date="1546187037261" expanded="true" signature="2073:2074" ph="..." />
+            <marker date="1546187037261" expanded="true" signature="2073:2078" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VeriMadenciligi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+        <state relative-caret-position="324">
+          <caret line="92" column="70" lean-forward="true" selection-start-line="92" selection-start-column="70" selection-end-line="92" selection-end-column="70" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
