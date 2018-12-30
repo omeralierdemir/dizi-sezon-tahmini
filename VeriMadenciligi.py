@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import VeriTemizleme as vt
+import pandas as pd
 
 
 # url = 'https://www.imdb.com/search/title?title_type=tv_series&countries=tr&ref_=adv_prv'
@@ -64,8 +65,28 @@ for urlDeger in range(1,1301,50):
 
 
 
-turT = vt.satirTemizle(turT)
-tur = vt.tur(turT)
+#print(diziIsimleri[113])
+baslangicT,bitisTarih = vt.tarihBelirleme(tarihVerileri)
+
+
+
+print(baslangicT)
+print(bitisTarih)
+
+sezon = vt.sezonHesapla(baslangicT,bitisTarih)
+print(sezon)
+count3 = 0
+for i in sezon:
+    if (i > 13):
+
+        count3 = count3 + 1
+
+print(sezon)
+
+print(count3)
+turT = vt.satirTemizle(turT) # aga tüm türleri bir arada dönderiyo
+tur = vt.tur(turT) # tek türleri dönderiyo 0. index yani
+
 print(diziIsimleri)
 #print(turT)
 print(len(diziIsimleri))

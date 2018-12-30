@@ -7,6 +7,19 @@ def satirTemizle(liste):
     return kopru
 
 
+def sezonHesapla(basT,bitT):
+
+    sezon = []
+
+    for i in range(len(basT)):
+
+
+        sezon.append(int(bitT[i]) - int(basT[i]) + 1)
+    return sezon
+
+
+
+
 def tarihBelirleme(tarihList):
     baslangicT = []
     bitisT = []
@@ -16,13 +29,14 @@ def tarihBelirleme(tarihList):
 
         kopru = i.replace("(", "")
         kopru = kopru.replace(")", "")
+        kopru = kopru.replace("I","")
         if ("–" in i):
 
             basT, bitT = kopru.split("–")
 
             if (bitT == ' ' and 2018 - int(basT) >= 10):
 
-                bitT = str(int(basT) + 4)
+                bitT = str(int(basT) + 2)
 
             elif (bitT == ' ' and 2018 - int(basT) < 10):
 
