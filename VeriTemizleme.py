@@ -1,12 +1,8 @@
 def satirTemizle(liste):
     kopru = []
     for i in liste:
-
-
-        deg = i.replace("\n","")
+        deg = i.replace("\n", "")
         kopru.append(deg.replace(" ", ""))
-
-
 
     return kopru
 
@@ -20,43 +16,40 @@ def tarihBelirleme(tarihList):
 
         kopru = i.replace("(", "")
         kopru = kopru.replace(")", "")
-        if("–" in i):
+        if ("–" in i):
 
-            basT,bitT = kopru.split("–")
+            basT, bitT = kopru.split("–")
 
-            if(bitT == ' ' and 2018-int(basT) >= 10):
+            if (bitT == ' ' and 2018 - int(basT) >= 10):
 
-                bitT =str(int(basT) + 4)
+                bitT = str(int(basT) + 4)
 
-            elif(bitT == ' ' and 2018-int(basT) < 10):
+            elif (bitT == ' ' and 2018 - int(basT) < 10):
 
-                bitT =str( int(basT) + (2018 - int(basT)))
+                bitT = str(int(basT) + (2018 - int(basT)))
 
         else:
 
-            basT,bitT = kopru,kopru
-
+            basT, bitT = kopru, kopru
 
         baslangicT.append(basT)
         bitisT.append(bitT)
 
-        print(len(baslangicT),len(bitisT))
-    return  baslangicT,bitisT
+        print(len(baslangicT), len(bitisT))
+    return baslangicT, bitisT
 
 
 def tur(dizi):
-
     kopru = []
     for i in dizi:
-        a= i.split(",")
+        a = i.split(",")
 
         kopru.append(a[0])
 
-
     return kopru
 
-def aktorPuan(imdbList,oyuncuList):
 
+def aktorPuan(imdbList, oyuncuList):
     aktor = []
     aktorler = []
     count = 0
@@ -64,10 +57,10 @@ def aktorPuan(imdbList,oyuncuList):
     for i in range(len(oyuncuList)):
         for j in range(len(oyuncuList[i])):
 
-            if(oyuncuList[i][j] not in aktor):
+            if (oyuncuList[i][j] not in aktor):
 
                 aktor.append(oyuncuList[i][j])
-                aktorler.append([oyuncuList[i][j],0,0])
+                aktorler.append([oyuncuList[i][j], 0, 0])
                 aktorler[count][1] = imdbList[i]
                 aktorler[count][2] = 1
 
@@ -79,3 +72,22 @@ def aktorPuan(imdbList,oyuncuList):
                 aktorler[count2][1] = aktorler[count2][1] + imdbList[i]
                 aktorler[count2][2] = aktorler[count2][2] + 1
 
+
+def dictionary(turList):
+    sonuc = []
+    toplam = 0
+    sozluk = {"action": 16, "fantasy": 14, "sci-fi": 12, "drama": 18, "thriller": 16, "mystery": 14, "crime": 15,
+              "adventure": 17, "comedy": 16, "romance": 16, "history": 8, "war": 16, "family": 10, "sport": 12,
+              "music": 6, "talk-show": 14, "biography": 6, "horror": 10, "reality-tv": 12, "short": 6, "game-show": 12,
+              "news": 12, "documentary": 10}
+
+
+    for i in range(len(turList)):
+        for j in range(len(turList[i])):
+
+            if (turList[i][j].lower() in sozluk):
+                toplam = int(sozluk[turList[i][j].lower()]) + toplam
+
+        ortalama = toplam / len(turList[i])
+        toplam = 0
+        sonuc.append(ortalama)

@@ -10,13 +10,28 @@ dizi = ['(2018– )', '(2018– )', '(2017– )', '(2016–2017)', '(2014– )',
 deneme = ["\n omer ali","\nomer ali","\nom  er alidd","\no me  r alsdadi"]
 
 imdb = [1,2,3]
+tur = [["aCtion","Drama","Adventure"]]
 
 #print(a)
 #print(vt.tarihBelirleme(dizi))
 
 aaktor = [["omer ali", 4,0]]
 
+sozluk = {"omer":2,"murat":10,"sari":10}
+diziS = ["omer","murat","sari"]
+toplam = 0
+"""
+for i in diziS:
+    if(i in sozluk):
+
+        print("HeSDebeleeeeeee".lower())
+
+        toplam = toplam + 1
+
+print(toplam)
 vt.aktorPuan(imdb,aktor)
 
 liste.extend("7")
-print(liste)
+print()
+"""
+vt.dictionary(tur)
