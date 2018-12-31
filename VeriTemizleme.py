@@ -1,7 +1,7 @@
 def satirTemizle(liste):
     kopru = []
     for i in liste:
-        deg = i.replace("\n", "")
+        deg = i.replace("\n", "")   # aga tur verileri gürültülü geliyor. gürültüleri temizleyip türleri array haline getirdin
 
         deg = deg.replace(" ", "")
         deg = deg.split(",")
@@ -85,6 +85,24 @@ def tur(dizi):
     return kopru
 
 
+def aktorNameCastArray(aktorList):
+
+
+    sonuc = []
+    for i in aktorList:
+
+        if("," in i):
+
+            dizi = i.split(",")
+
+        else:
+
+            dizi = i
+
+
+        sonuc.append(dizi)
+
+    return sonuc
 def aktorPuan(imdbList, oyuncuList):
     aktor = []
     aktorler = []
@@ -133,6 +151,14 @@ def diziKadroPuan(aktorUniq,oyuncuList,aktorPuan):
 
                 count = count + 1
 
+def dictionaryOrtlama():
+
+
+    sozluk = {"action": 16, "fantasy": 14, "sci-fi": 12, "drama": 18, "thriller": 16, "mystery": 14, "crime": 15,
+              "adventure": 17, "comedy": 16, "romance": 16, "history": 8, "war": 16, "family": 15, "sport": 12,
+              "music": 6, "talk-show": 14, "biography": 6, "horror": 10, "reality-tv": 12, "short": 6, "game-show": 12,
+              "news": 15, "documentary": 10}
+
 
 def dictionary(turList):
     sonuc = []
@@ -180,5 +206,7 @@ def castOyuncuKadro(oyuncuKadro): # aga yek stringe düşürüyon burada stringi
 
 
     return sonuc
+
+
 
 

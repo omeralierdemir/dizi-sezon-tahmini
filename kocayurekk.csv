@@ -528,7 +528,7 @@
 526,Uçurum,2012,2013,2,basarili,Action,17.0,"Lavinia Longhi,Mehmet Ali Nuroglu,Erdal Yildiz,Esra Ronabar",,7.5
 527,Harem,2012,2018,7,olgun,Comedy,16.0,"Murat Arkin,Serhan Arslan,Önder K. Açikbas,Belma Canciger",,4.1
 528,Böyle Bitmesin,2012,2018,7,olgun,Drama,18.0,"Sevcan Yasar,Birce Akalay,Birol Denizci,Serpil Gül",,7.6
-529,Bir ferhat ile sirin hikayesi,2012,2018,7,olgun,Drama,18.0,"Ilhami Adsal,Sedef Avci,Murat Aydin,Halis Bayraktaroglu",,6.1
+529,Bir ferhat ile sirin hikayesi,2012,2018,7,olgun,Drama,18.0,"Ilhami Adsal,Sedef Avci,Murat Aydin,Halis Bayraktaroglu",,5.6
 530,Zengin Kiz Fakir Oglan,2012,2018,7,olgun,Adventure,17.0,"Asli Sahin,Mustafa Vuran,Murat Bölücek,Alara Keçeci",,4.7
 531,Zil Calinca,2012,2018,7,olgun,Short,12.333333333333334,"Cihan Simsek,Turhan Cihan Simsek,Elif Ceren Balikçi,Merve Hazer",,6.1
 532,Iki dünya arasinda,2012,2018,7,olgun,Drama,18.0,"Volkan Bora Dilek,Inanç Benlioglu,Meltem Dag,Basak Zebil",,3.8
@@ -777,7 +777,7 @@
 775,Deli gönül,2017,2018,2,basarili,Drama,18.0,"Ibrahim Eren Kilisli,Mutlu Ulusoy,Dilhan Naz Özgülüs,Tuvana Türkay",,5.7
 776,Dayan Yuregim,2017,2017,1,basarisiz,Drama,18.0,"Ece Uslu,Cansel Elcin,Nilay Deniz,Berk Atan",,5.8
 777,Dolunay,2017,2017,1,basarisiz,Comedy,16.0,"Özge Gürel,Can Yaman,Hakan Kurtas,Necip Memili",,7.4
-778,Kalp Atisi,2017,2018,2,basarili,Drama,17.0,"Gökhan Alkan,Öykü Karayel,Burcu Türünz,Basar Dogusoy",,6.7
+778,Kalp Atisi,2017,2018,2,basarili,Drama,17.0,"Gökhan Alkan,Öykü Karayel,Burcu Türünz,Basar Dogusoy",,6.8
 779,Çember,2017,2017,1,basarisiz,Action,16.333333333333332,"Baris Bagci,Pelin Akil,Anil Altan,Serhat Mustafa Kiliç",,7.3
 780,Rüya,2017,2018,2,basarili,Family,15.5,"Hazal Filiz Küçükköse,Ceyhun Mergiroglu,Ulas Tuna Astepe,Özge Özder",,6.0
 781,Badem sekeri,2017,2018,2,basarili,Comedy,16.0,"Hayati Akbas,Burcu Altin,Mehmet Atay,Alper Saldiran",,5.8
@@ -819,50 +819,51 @@
 817,Bir Deli Sevda,2017,2017,1,basarisiz,Drama,17.0,"Erkan Kolçak Köstendil,Cansu Tosun,Erdinç Gülener,Erkan Can",,7.4
 818,Fatih,2018,2018,1,basarisiz,Action,13.333333333333334,"Kenan Imirzalioglu,Çetin Tekindor,Gürkan Uygun,Büsra Develi",,7.2
 819,Mehmetçik Kut'ül Amare,2018,2018,1,basarisiz,Action,13.666666666666666,"Ilker Aksum,Ismail Ege Sasmaz,Özgü Kaya,Serdar Gökhan",,6.9
-820,The Protector,2018,2018,1,basarisiz,Action,14.0,"Çagatay Ulusoy,Ayça Aysin Turan,Hazar Ergüçlü,Okan Yalabik",,7.8
-821,Gülizar,2018,2018,1,basarisiz,Drama,18.0,"Farah Zeynep Abdullah,Osman Alkas,Berkay Ates,Berk Cankat",,6.1
-822,Adi: Zehra,2018,2018,1,basarisiz,Drama,18.0,"Ali Meriç,Günes Hayat,Zeynep Çamci,Alican Yücesoy",,5.5
-823,Avlu,2018,2018,1,basarisiz,Crime,16.5,"Demet Evgar,Ceren Moray,Nursel Köse,Kenan Ece",,7.9
-824,Dudullu Postasi,2018,2018,1,basarisiz,Comedy,15.0,"Güven Kiraç,Hazar Ergüçlü,Taner Ölmez,Bülent Sakrak",,6.4
-825,Sen Anlat Karadeniz,2018,2018,1,basarisiz,Drama,18.0,"Sinan Tuzcu,Ulas Tuna Astepe,Irem Helvacioglu,Mehmet Ali Nuroglu",,7.0
-826,Çukurdere,2018,2018,1,basarisiz,Drama,17.0,"Furkan Palali,Su Kutlu,Cihan Ünal,Ahu Sungur",,6.4
-827,Jet Sosyete,2018,2018,1,basarisiz,Comedy,15.5,"Gülse Birsel,Sarp Apak,Çaglar Çorumlu,Derya Karadas",,7.0
-828,Yuvamdaki Dusman,2018,2018,1,basarisiz,Drama,18.0,"Riza Akin,Hakan Dinçkol,Derya Kahraman,Sultan Köroglu Kiliç",,5.0
-829,Survivor 2018,2018,2018,1,basarisiz,Reality-TV,12.0,"Anil Berk Baki,Hilmicem Intepe,Nagihan Karadere,Adem Kilicci",,5.0
-830,Bir zamanlar Çukurova,2018,2018,1,basarisiz,Drama,18.0,"Vahide Perçin,Hilal Altinbilek,Murat Ünalmis,Ugur Günes",,6.7
-831,Nefes Nefese,2018,2018,1,basarisiz,Action,16.0,"Sükrü Özyildiz,Melisa Senolsun,Ugur Yücel,Ezgi Senler",,6.9
-832,Hiçkirik,2018,2018,1,basarisiz,Drama,17.0,"Sezgi Sena Akay,Özge Akdeniz,Kübra Akin,Emre Ataman",,5.9
-833,Altin Tepsi,2018,2018,1,basarisiz,Drama,17.0,"Talat Bulut,Eda Ece,Sevval Sam,Sevda Erginci",,5.5
-834,Yasamayanlar,2018,2018,1,basarisiz,Drama,16.0,"Elçin Sangu,Kerem Bürsin,Birkan Sokullu,Selma Ergeç",,6.6
-835,Semt Bizim Ev Kira,2018,2018,1,basarisiz,Action,16.0,"Haydar Biçakci,Emre Bolat,Hasan Ekinci,Turgut Eryilmaz",,5.8
-836,Talibi Irsadi,2018,2018,1,basarisiz,Biography,7.0,"Rifat Kanpara,Ahmet Avni Yilmaz,Mahmut Kotan,Ahmet Akyol",,8.4
-837,Kalbimin Sultani,2018,2018,1,basarisiz,Comedy,14.0,"Ali Ersan Duru,Aleksandra Nikiforova,Emel Çölgeçen,Tansel Öngel",,7.1
-838,Gelinim Mutfakta,2018,2018,1,basarisiz,Game-Show,12.0,"Fatih Ürek,Ezgi Yildirim,Reyhan Yildirim,Sevgül Kiroglu",,7.1
-839,Kocaman Ailem,2018,2018,1,basarisiz,Comedy,15.5,"Levent Ülgen,Emre Karayel,Çagla Demir,Özlem Türkad",,6.3
-840,Bir Deli Rüzgar,2018,2018,1,basarisiz,Drama,17.0,"Pinar Deniz,Hatice Aslan,Berk Cankat,Naz Sayiner",,7.0
-841,4N1K,2018,2018,1,basarisiz,Comedy,15.333333333333334,"Gözde Mutluer,Eslem Akar,Burak Yörük,Sina Ozer",,5.8
-842,Koca Koca Yalanlar,2018,2018,1,basarisiz,Comedy,16.0,"Hakan Yilmaz,Evrim Alasya,Selen Uçer,Pelin Öztekin",,5.8
-843,Bu Kizin Öyküsü,2018,2018,1,basarisiz,Documentary,14.0,"Begüm Cana Özgür,Mizgin Ay,Tugçe Akgün,Karsu Dönmez",,7.8
-844,Darisi Basimiza,2018,2018,1,basarisiz,Comedy,16.0,"Ozan Dolunay,Elif Dogan,Seher Devrim Yakut,Açelya Topaloglu",,5.8
-845,Erkenci Kus,2018,2018,1,basarisiz,Comedy,16.0,"Demet Özdemir,Can Yaman,Öznur Serçeler,Berat Yenilmez",,8.2
-846,Beni birakma,2018,2018,1,basarisiz,Drama,17.0,"Berkay Veli,Sila Özlem Önemli,Emrah Akduman,Sude Dogar",,6.2
-847,Ege'nin hamsisi,2018,2018,1,basarisiz,Comedy,16.0,"Iclal Aydin,Ugur Çavusoglu,Uraz Kaygilaroglu,Bestemsu Özdemir",,6.1
-848,Elimi birakma,2018,2018,1,basarisiz,Drama,18.0,"Alp Navruz,Alina Boz,Seray Gözler,Cemre Gümeli",,7.9
-849,Nielegalni,2018,2018,1,basarisiz,Thriller,16.0,"Grzegorz Damiecki,Agnieszka Grochowska,Sylwia Juszczak,Wojciech Zoladkowicz",,6.4
-850,Gülperi,2018,2018,1,basarisiz,Drama,18.0,"Nurgül Yesilçay,Timuçin Esen,Tarik Pabuccuoglu,Ece Sükan",,7.2
-851,GIF,2018,2018,1,basarisiz,Comedy,16.0,"Onur Durmaz,Yagizcan Küçükcan,Cemre Kurum,Irem Çalhan",,3.6
-852,Kizim,2018,2018,1,basarisiz,Drama,18.0,"Bugra Gülsoy,Beren Gokyildiz,Leyla Lydia Tugutlu,Serhat Teoman",,7.8
-853,MasterChef Turkey,2018,2018,1,basarisiz,Game-Show,12.0,"Mehmet Yalçinkaya,Somer Sivrioglu,Hazer Amani,Hakan Kanik",,5.2
-854,Bir Litre Gözyasi,2018,2018,1,basarisiz,Drama,18.0,"Sanem Çelik,Miray Daner,Tolga Tekin,Mert Yazicioglu",,5.8
-855,Bir Umut Yeter,2018,2018,1,basarisiz,Drama,18.0,"Tolgahan Sayisman,Esra Bilgic,Hazal Subasi,Serhat Tutumluer",,5.9
-856,Aglama anne,2018,2018,1,basarisiz,Drama,18.0,"Birce Akalay,Özlem Yilmaz,Cansel Elcin,Sezin Akbasogullari",,6.2
-857,Can Kiriklari,2018,2018,1,basarisiz,Action,17.0,"Hande Dogandemir,Funda Eryigit,Seçkin Özdemir,Alican Yücesoy",,8.1
-858,Sahin Tepesi,2018,2018,1,basarisiz,Action,16.666666666666668,"Zerrin Tekindor,Ebru Özkan,Boran Kuzum,Aybüke Pusat",,7.4
-859,Bu Gece,2018,2018,1,basarisiz,Comedy,15.0,"Ibrahim Selim,Irem Erten,Mert Efe Günaydin,Furkan Inanir",,9.4
-860,Muhtesem Ikili,2018,2018,1,basarisiz,Action,15.5,"Ibrahim Celikkol,Kerem Bürsin,Öykü Karayel,Özge Gürel",,7.1
-861,Bartu Ben,2018,2018,1,basarisiz,Comedy,17.0,"Bartu Küçükçaglayan,Müfit Kayacan,Cem Zeynel Kiliç,Cemre Ebuzziya",,8.0
-862,Çarpisma,2018,2018,1,basarisiz,Action,16.666666666666668,"Kivanç Tatlitug,Elçin Sangu,Alperen Duymaz,Melisa Pamuk",,8.9
-863,Ikizler Memo-Can,2018,2018,1,basarisiz,Comedy,15.5,"Nehir Erdogan,Özgürcan Cevik,Emir Berke Zincidi,Tugba Çinar",,3.6
-864,Eser Yenenler Show,2018,2018,1,basarisiz,Talk-Show,14.0,"Eser Yenenler,Kubilay Aka,Hazer Amani,Buket Aydin",,5.3
-865,Tozkoparan,2018,2018,1,basarisiz,Adventure,15.5,"Özgür Ege Nalci,Burak Kut,Leya Kirsan,Burcu Altin",,7.8
-866,Uykucu,2018,2018,1,basarisiz,Animation,16.0,"Beril Su Hatirnaz,Abdulkerim Tunc",,8.0
+820,Kurtlar Vadisi: Kaos,2018,2018,1,basarisiz,Action,16.333333333333332,Necati Sasmaz,,8.8
+821,The Protector,2018,2018,1,basarisiz,Action,14.0,"Çagatay Ulusoy,Ayça Aysin Turan,Hazar Ergüçlü,Okan Yalabik",,7.8
+822,Gülizar,2018,2018,1,basarisiz,Drama,18.0,"Farah Zeynep Abdullah,Osman Alkas,Berkay Ates,Berk Cankat",,6.1
+823,Adi: Zehra,2018,2018,1,basarisiz,Drama,18.0,"Ali Meriç,Günes Hayat,Zeynep Çamci,Alican Yücesoy",,5.5
+824,Avlu,2018,2018,1,basarisiz,Crime,16.5,"Demet Evgar,Ceren Moray,Nursel Köse,Kenan Ece",,7.9
+825,Dudullu Postasi,2018,2018,1,basarisiz,Comedy,15.0,"Güven Kiraç,Hazar Ergüçlü,Taner Ölmez,Bülent Sakrak",,6.4
+826,Sen Anlat Karadeniz,2018,2018,1,basarisiz,Drama,18.0,"Sinan Tuzcu,Ulas Tuna Astepe,Irem Helvacioglu,Mehmet Ali Nuroglu",,7.0
+827,Çukurdere,2018,2018,1,basarisiz,Drama,17.0,"Furkan Palali,Su Kutlu,Cihan Ünal,Ahu Sungur",,6.4
+828,Jet Sosyete,2018,2018,1,basarisiz,Comedy,15.5,"Gülse Birsel,Sarp Apak,Çaglar Çorumlu,Derya Karadas",,7.0
+829,Yuvamdaki Dusman,2018,2018,1,basarisiz,Drama,18.0,"Riza Akin,Hakan Dinçkol,Derya Kahraman,Sultan Köroglu Kiliç",,5.0
+830,Survivor 2018,2018,2018,1,basarisiz,Reality-TV,12.0,"Anil Berk Baki,Hilmicem Intepe,Nagihan Karadere,Adem Kilicci",,5.0
+831,Bir zamanlar Çukurova,2018,2018,1,basarisiz,Drama,18.0,"Vahide Perçin,Hilal Altinbilek,Murat Ünalmis,Ugur Günes",,6.7
+832,Nefes Nefese,2018,2018,1,basarisiz,Action,16.0,"Sükrü Özyildiz,Melisa Senolsun,Ugur Yücel,Ezgi Senler",,6.9
+833,Hiçkirik,2018,2018,1,basarisiz,Drama,17.0,"Sezgi Sena Akay,Özge Akdeniz,Kübra Akin,Emre Ataman",,5.9
+834,Altin Tepsi,2018,2018,1,basarisiz,Drama,17.0,"Talat Bulut,Eda Ece,Sevval Sam,Sevda Erginci",,5.5
+835,Yasamayanlar,2018,2018,1,basarisiz,Drama,16.0,"Elçin Sangu,Kerem Bürsin,Birkan Sokullu,Selma Ergeç",,6.6
+836,Semt Bizim Ev Kira,2018,2018,1,basarisiz,Action,16.0,"Haydar Biçakci,Emre Bolat,Hasan Ekinci,Turgut Eryilmaz",,5.8
+837,Talibi Irsadi,2018,2018,1,basarisiz,Biography,7.0,"Rifat Kanpara,Ahmet Avni Yilmaz,Mahmut Kotan,Ahmet Akyol",,8.4
+838,Kalbimin Sultani,2018,2018,1,basarisiz,Comedy,14.0,"Ali Ersan Duru,Aleksandra Nikiforova,Emel Çölgeçen,Tansel Öngel",,7.1
+839,Gelinim Mutfakta,2018,2018,1,basarisiz,Game-Show,12.0,"Fatih Ürek,Ezgi Yildirim,Reyhan Yildirim,Sevgül Kiroglu",,7.1
+840,Kocaman Ailem,2018,2018,1,basarisiz,Comedy,15.5,"Levent Ülgen,Emre Karayel,Çagla Demir,Özlem Türkad",,6.3
+841,Bir Deli Rüzgar,2018,2018,1,basarisiz,Drama,17.0,"Pinar Deniz,Hatice Aslan,Berk Cankat,Naz Sayiner",,7.0
+842,4N1K,2018,2018,1,basarisiz,Comedy,15.333333333333334,"Gözde Mutluer,Eslem Akar,Burak Yörük,Sina Ozer",,5.8
+843,Koca Koca Yalanlar,2018,2018,1,basarisiz,Comedy,16.0,"Hakan Yilmaz,Evrim Alasya,Selen Uçer,Pelin Öztekin",,5.8
+844,Bu Kizin Öyküsü,2018,2018,1,basarisiz,Documentary,14.0,"Begüm Cana Özgür,Mizgin Ay,Tugçe Akgün,Karsu Dönmez",,7.8
+845,Darisi Basimiza,2018,2018,1,basarisiz,Comedy,16.0,"Ozan Dolunay,Elif Dogan,Seher Devrim Yakut,Açelya Topaloglu",,5.8
+846,Erkenci Kus,2018,2018,1,basarisiz,Comedy,16.0,"Demet Özdemir,Can Yaman,Öznur Serçeler,Berat Yenilmez",,8.2
+847,Beni birakma,2018,2018,1,basarisiz,Drama,17.0,"Berkay Veli,Sila Özlem Önemli,Emrah Akduman,Sude Dogar",,6.2
+848,Ege'nin hamsisi,2018,2018,1,basarisiz,Comedy,16.0,"Iclal Aydin,Ugur Çavusoglu,Uraz Kaygilaroglu,Bestemsu Özdemir",,6.1
+849,Elimi birakma,2018,2018,1,basarisiz,Drama,18.0,"Alp Navruz,Alina Boz,Seray Gözler,Cemre Gümeli",,7.9
+850,Nielegalni,2018,2018,1,basarisiz,Thriller,16.0,"Grzegorz Damiecki,Agnieszka Grochowska,Sylwia Juszczak,Wojciech Zoladkowicz",,6.4
+851,Gülperi,2018,2018,1,basarisiz,Drama,18.0,"Nurgül Yesilçay,Timuçin Esen,Tarik Pabuccuoglu,Ece Sükan",,7.2
+852,GIF,2018,2018,1,basarisiz,Comedy,16.0,"Onur Durmaz,Yagizcan Küçükcan,Cemre Kurum,Irem Çalhan",,3.6
+853,Kizim,2018,2018,1,basarisiz,Drama,18.0,"Bugra Gülsoy,Beren Gokyildiz,Leyla Lydia Tugutlu,Serhat Teoman",,7.8
+854,MasterChef Turkey,2018,2018,1,basarisiz,Game-Show,12.0,"Mehmet Yalçinkaya,Somer Sivrioglu,Hazer Amani,Hakan Kanik",,5.2
+855,Bir Litre Gözyasi,2018,2018,1,basarisiz,Drama,18.0,"Sanem Çelik,Miray Daner,Tolga Tekin,Mert Yazicioglu",,5.8
+856,Bir Umut Yeter,2018,2018,1,basarisiz,Drama,18.0,"Tolgahan Sayisman,Esra Bilgic,Hazal Subasi,Serhat Tutumluer",,5.9
+857,Aglama anne,2018,2018,1,basarisiz,Drama,18.0,"Birce Akalay,Özlem Yilmaz,Cansel Elcin,Sezin Akbasogullari",,6.2
+858,Can Kiriklari,2018,2018,1,basarisiz,Action,17.0,"Hande Dogandemir,Funda Eryigit,Seçkin Özdemir,Alican Yücesoy",,8.1
+859,Sahin Tepesi,2018,2018,1,basarisiz,Action,16.666666666666668,"Zerrin Tekindor,Ebru Özkan,Boran Kuzum,Aybüke Pusat",,7.4
+860,Bu Gece,2018,2018,1,basarisiz,Comedy,15.0,"Ibrahim Selim,Irem Erten,Mert Efe Günaydin,Furkan Inanir",,9.4
+861,Muhtesem Ikili,2018,2018,1,basarisiz,Action,15.5,"Ibrahim Celikkol,Kerem Bürsin,Öykü Karayel,Özge Gürel",,7.1
+862,Bartu Ben,2018,2018,1,basarisiz,Comedy,17.0,"Bartu Küçükçaglayan,Müfit Kayacan,Cem Zeynel Kiliç,Cemre Ebuzziya",,8.0
+863,Çarpisma,2018,2018,1,basarisiz,Action,16.666666666666668,"Kivanç Tatlitug,Elçin Sangu,Alperen Duymaz,Melisa Pamuk",,8.9
+864,Ikizler Memo-Can,2018,2018,1,basarisiz,Comedy,15.5,"Nehir Erdogan,Özgürcan Cevik,Emir Berke Zincidi,Tugba Çinar",,3.5
+865,Eser Yenenler Show,2018,2018,1,basarisiz,Talk-Show,14.0,"Eser Yenenler,Kubilay Aka,Hazer Amani,Buket Aydin",,5.3
+866,Tozkoparan,2018,2018,1,basarisiz,Adventure,15.5,"Özgür Ege Nalci,Burak Kut,Leya Kirsan,Burcu Altin",,7.8
+867,Uykucu,2018,2018,1,basarisiz,Animation,16.0,"Beril Su Hatirnaz,Abdulkerim Tunc",,8.0

@@ -20,13 +20,18 @@ aaktor = [["omer ali", 4,0]]
 sozluk = {"omer":2,"murat":10,"sari":10}
 diziS = ["omer","murat","sari"]
 toplam = 0
-vt.aktorPuan(liste,aktor)
 
 denemeler = [["omer",10,2],["omer",14,3],["omer",18,3],["omer",24,6],["omer",30,3],["omer",30,3],["omer",44,4],["omer",42,6],["omer",56,2]]
 
 #denemeler[:][1] = denemeler[:][1] / denemeler[:][2] ----> haruna sor hacı
 omerL = []
 murat = ['Tekin Akmansoy', 'Leman Çidamli', 'Sevda Aydan', 'Hasim Hekimoglu']
+onur = ["omer ali ,murat,sari","sari,sar, sar" , "onur ,onur ,onur"]
 
+
+dene = "tur"
+
+aga = dene.split(",")
+print(aga)
 degisken = ','.join(str(x) for x in murat)
 print(denemeler[:][0:1])
